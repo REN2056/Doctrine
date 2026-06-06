@@ -1,0 +1,10 @@
+t=0 | sel=0 a=0 b=0 | y_struct=0 y_data=0 y_behav=0
+t=10000 | sel=0 a=0 b=1 | y_struct=0 y_data=0 y_behav=0
+t=20000 | sel=0 a=1 b=0 | y_struct=1 y_data=1 y_behav=1
+t=30000 | sel=0 a=1 b=1 | y_struct=1 y_data=1 y_behav=1
+t=40000 | sel=1 a=0 b=0 | y_struct=0 y_data=0 y_behav=0
+t=50000 | sel=1 a=0 b=1 | y_struct=1 y_data=1 y_behav=1
+t=60000 | sel=1 a=1 b=0 | y_struct=0 y_data=0 y_behav=0
+t=70000 | sel=1 a=1 b=1 | y_struct=1 y_data=1 y_behav=1
+testbench.sv:21: $finish called at 80000 (1ps)
+t=80000 | sel=0 a=0 b=0 | y_struct=0 y_data=0 y_behav=0

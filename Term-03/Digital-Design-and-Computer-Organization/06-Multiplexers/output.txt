@@ -1,0 +1,14 @@
+t=0 | 2:1 -> a=0 b=1 sel=0 y=0 | 4:1 -> d=xxxx sel=xx y=x |8:1 -> d=xxxxxxxx sel=xxx y=x
+t=10000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=xxxx sel=xx y=x |8:1 -> d=xxxxxxxx sel=xxx y=x
+t=20000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=00 y=0 |8:1 -> d=xxxxxxxx sel=xxx y=x
+t=30000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=01 y=1 |8:1 -> d=xxxxxxxx sel=xxx y=x
+t=40000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=10 y=0 |8:1 -> d=xxxxxxxx sel=xxx y=x
+t=50000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=xxxxxxxx sel=xxx y=x
+t=60000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=000 y=0
+t=70000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=001 y=1
+t=80000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=010 y=0
+t=90000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=011 y=1
+t=100000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=100 y=0
+t=110000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=101 y=0
+t=120000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=110 y=1
+t=130000 | 2:1 -> a=0 b=1 sel=1 y=1 | 4:1 -> d=1010 sel=11 y=1 |8:1 -> d=11001010 sel=111 y=1

@@ -1,0 +1,18 @@
+t=0 | A=0 B=0 Cin=0 Bin=0 || HA: Sum=0 Carry=0 | FA: Sum=0 Carry=0 | HS: Diff=0 Borrow=0 | FS: Diff=0 Borrow=0
+t=10000 | A=0 B=0 Cin=0 Bin=1 || HA: Sum=0 Carry=0 | FA: Sum=0 Carry=0 | HS: Diff=0 Borrow=0 | FS: Diff=1 Borrow=1
+t=20000 | A=0 B=0 Cin=1 Bin=0 || HA: Sum=0 Carry=0 | FA: Sum=1 Carry=0 | HS: Diff=0 Borrow=0 | FS: Diff=0 Borrow=0
+t=30000 | A=0 B=0 Cin=1 Bin=1 || HA: Sum=0 Carry=0 | FA: Sum=1 Carry=0 | HS: Diff=0 Borrow=0 | FS: Diff=1 Borrow=1
+t=40000 | A=0 B=1 Cin=0 Bin=0 || HA: Sum=1 Carry=0 | FA: Sum=1 Carry=0 | HS: Diff=1 Borrow=1 | FS: Diff=1 Borrow=1
+t=50000 | A=0 B=1 Cin=0 Bin=1 || HA: Sum=1 Carry=0 | FA: Sum=1 Carry=0 | HS: Diff=1 Borrow=1 | FS: Diff=0 Borrow=1
+t=60000 | A=0 B=1 Cin=1 Bin=0 || HA: Sum=1 Carry=0 | FA: Sum=0 Carry=1 | HS: Diff=1 Borrow=1 | FS: Diff=1 Borrow=1
+t=70000 | A=0 B=1 Cin=1 Bin=1 || HA: Sum=1 Carry=0 | FA: Sum=0 Carry=1 | HS: Diff=1 Borrow=1 | FS: Diff=0 Borrow=1
+t=80000 | A=1 B=0 Cin=0 Bin=0 || HA: Sum=1 Carry=0 | FA: Sum=1 Carry=0 | HS: Diff=1 Borrow=0 | FS: Diff=1 Borrow=0
+t=90000 | A=1 B=0 Cin=0 Bin=1 || HA: Sum=1 Carry=0 | FA: Sum=1 Carry=0 | HS: Diff=1 Borrow=0 | FS: Diff=0 Borrow=0
+t=100000 | A=1 B=0 Cin=1 Bin=0 || HA: Sum=1 Carry=0 | FA: Sum=0 Carry=1 | HS: Diff=1 Borrow=0 | FS: Diff=1 Borrow=0
+t=110000 | A=1 B=0 Cin=1 Bin=1 || HA: Sum=1 Carry=0 | FA: Sum=0 Carry=1 | HS: Diff=1 Borrow=0 | FS: Diff=0 Borrow=0
+t=120000 | A=1 B=1 Cin=0 Bin=0 || HA: Sum=0 Carry=1 | FA: Sum=0 Carry=1 | HS: Diff=0 Borrow=0 | FS: Diff=0 Borrow=0
+t=130000 | A=1 B=1 Cin=0 Bin=1 || HA: Sum=0 Carry=1 | FA: Sum=0 Carry=1 | HS: Diff=0 Borrow=0 | FS: Diff=1 Borrow=1
+t=140000 | A=1 B=1 Cin=1 Bin=0 || HA: Sum=0 Carry=1 | FA: Sum=1 Carry=1 | HS: Diff=0 Borrow=0 | FS: Diff=0 Borrow=0
+t=150000 | A=1 B=1 Cin=1 Bin=1 || HA: Sum=0 Carry=1 | FA: Sum=1 Carry=1 | HS: Diff=0 Borrow=0 | FS: Diff=1 Borrow=1
+testbench.sv:24: $finish called at 160000 (1ps)
+t=160000 | A=0 B=0 Cin=0 Bin=0 || HA: Sum=0 Carry=0 | FA: Sum=0 Carry=0 | HS: Diff=0 Borrow=0 | FS: Diff=0 Borrow=0

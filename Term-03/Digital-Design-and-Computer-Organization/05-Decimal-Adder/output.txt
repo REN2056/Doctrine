@@ -1,0 +1,5 @@
+t=0 | A= 4 B= 5 Cin=0 | Sum= 9 Cout=0
+t=10000 | A= 7 B= 6 Cin=0 | Sum= 3 Cout=1
+t=20000 | A= 9 B= 9 Cin=0 | Sum= 8 Cout=1
+t=30000 | A= 3 B= 2 Cin=1 | Sum= 6 Cout=0
+t=40000 | A= 8 B= 5 Cin=1 | Sum= 4 Cout=1

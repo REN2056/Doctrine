@@ -1,0 +1,19 @@
+=== 1:2 DeMUX Truth Table ===
+sel1=0 | y0=1 y1=0
+sel1=1 | y0=0 y1=1
+
+=== 1:4 DeMUX Truth Table ===
+sel4=00 | y=0001
+sel4=01 | y=0010
+sel4=10 | y=0100
+sel4=11 | y=1000
+
+=== 1:8 DeMUX Truth Table ===
+sel8=000 | y=00000001
+sel8=001 | y=00000010
+sel8=010 | y=00000100
+sel8=011 | y=00001000
+sel8=100 | y=00010000
+sel8=101 | y=00100000
+sel8=110 | y=01000000
+sel8=111 | y=10000000
